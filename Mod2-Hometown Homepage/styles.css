@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px
+}
+
+#title {
+    color: white;
+    background-color: #1D3557;
+    padding: 5px 12px;
+    border-radius: 8px; 
+    margin-bottom: 0px;
+}
+
+#sub-title {
+    color: white;
+    background-color: #457B9D;
+    border-radius: 8px;
+    padding: 5px 15px; 
+    margin-top: 10px;
+}
+
+#main {
+    background: #F1FAEE;
+    color: #1D3557;
+    padding: 10px 0 10px 0;
+    height: 300px;
+}
+
+#main-title {
+    font-size: 1.3em;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.85em;
+    padding-top: 5px;
+}
+
+.activities-item {
+    width: 170px;
+}
+
+.activities-title {
+    font-weight: bold;
+}
+
+.activities-img {
+    border-radius: 50%;
+}
+
+#guide {
+    width: 350px;
+    margin: 40px auto 40px auto;
+    padding: 20px 15px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #A8DADC;
+    color: #1D3557;
+    border-bottom: 5px solid #1D3557;
+}
+
+#profile {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#guide-p {
+    font-style: italic;
+}
